@@ -1,0 +1,18 @@
+button {
+    font-size: 20px;
+    font-family:Share tech mono;
+    background-color: green;
+    padding: 20px;
+    border-radius: 1px;
+    text-align: auto;
+    border: none;
+    color: white;
+    
+
+    
+}
+
+button a:hover {
+    background-color: greenyellow;
+    color: black;
+}

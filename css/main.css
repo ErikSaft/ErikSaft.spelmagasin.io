@@ -1,0 +1,69 @@
+h1 {
+    color: greenyellow;
+    font-family:Share tech mono;
+    font-size: xxx-large;
+    padding: 100px;
+}
+
+p {
+    color: greenyellow;
+    font-family:Share tech mono;
+    font-size: xx-large;
+     
+}
+
+.topnav {
+    
+    background-color: black;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+/* Kossen menyen ser ut*/
+.topnav a {
+    font-family:Share tech mono;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Knappane skifter farge når musepeikeren er over den*/
+.topnav a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+/* Skifte farge på Fanen du er innpå kanppen i menyen*/
+.topnav a.active {
+    background-color: green;
+    color: white;
+}
+
+.center-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.spel-container {
+    grid-template-columns: auto auto auto;
+}
+
+button {
+    font-family:Share tech mono;
+    background-color: greenyellow;
+    width: 200px;
+    height: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    
+
+    
+}
