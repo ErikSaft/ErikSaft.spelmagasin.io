@@ -5,7 +5,6 @@ const choiceBtns = document.querySelectorAll(".choiceBtn");
 let spelar;
 let datamaskin;
 let resultat;
-
 choiceBtns.forEach(button => button.addEventListener("click", () => {
     spelar = button.textContent;
     datamaskinTurn();
@@ -13,11 +12,8 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     datamaskinText.textContent = `Datamaskin: ${datamaskin}`;
     resultatText.textContent = checkWinner();
 }));
-
 function datamaskinTurn(){
-
     const randNum = Math.floor(Math.random() * 3) +1;
-
     switch(randNum){
         case 1:
             datamaskin = "STEIN";
@@ -43,5 +39,4 @@ function checkWinner(){
     else if(datamaskin == "SAKS"){
         return (spelar == "STEIN") ? "Du vant!" : "Du tapte!"
     }
-
 }
