@@ -18,11 +18,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reaksjonsspel.css">
+    <link rel="stylesheet" href="css/reaksjonsspel.css">
     <title>Reaksjonsspel</title>
 </head>
 
 <body>
+    
     <div class="button">
         <a href="index.html">
             <button>
@@ -31,13 +32,18 @@
         </a>
     </div>
     <div id="gameDiv">
-        <h1>Reaction Time Test</h1>
-        <p id="message">Click when the box turns green</p>
+        <h1>Reaksjonstid Spel</h1>
+        <p id="message">Trykk når boksne blir grønn</p>
+        <div id="buttonContainer">
+            <button id="readyButton">Klar</button>
+            <button id="resetButton">Omstart</button>
+        </div>
         <div id="clickBox"></div>
         <p id="reactionTime"></p>
     </div>
     
-    <script src="reaksjonsspel.js"></script>
+    
+    <script src="js/reaksjonsspel.js"></script>
 </body>
 
 </html>
