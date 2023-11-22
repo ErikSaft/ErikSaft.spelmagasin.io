@@ -2,6 +2,7 @@ const spelarText = document.querySelector("#spelarText");
 const datamaskinText = document.querySelector("#datamaskinText");
 const resultatText = document.querySelector("#resultatText");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
+
 let spelar;
 let datamaskin;
 let resultat;

@@ -26,20 +26,30 @@ button a:hover {
     font-family:Share tech mono, cursive;
     border: 3px solid;
     border-radius: 25px;
+    border-color: green;
     padding: 100px;
-    background-color:grey ;
+    background-color:black;
     text-align: center;    
+    width: 600px; /* Set the width */
+    height: 300px; /* Set the height */
+    margin: auto; /* Center the box */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
+
 
 
 #spelarText{
-    color: green;
+    color: white;
 }
 
 #datamaskinText{
-    color:yellow;
+    color:white;
 }
 
 #resultatText{
-    color: Red;
+    color: white;
 }
