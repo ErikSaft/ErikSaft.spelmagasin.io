@@ -18,14 +18,14 @@ function checkGuess() {
         document.getElementById('message').innerHTML = "Gratulerer! Du vant.";
     } else if (userGuess < randomNumber) {
         // Viser ein melding om at det er for lavt om du gjetter for lavt og antall forsøk som er igjen
-        document.getElementById('message').innerHTML = "For lavt! Prøv igjen. Du har " + (7 - guesses) + " forsøk igjen.";
+        document.getElementById('message').innerHTML = "For lavt! Prøv igjen. Du har " + (5 - guesses) + " forsøk igjen.";
     } else if (userGuess > randomNumber) {
         // Viser ein melding om det er for høyt om du gjetter for høyt og antall forsøk som er igjen
-        document.getElementById('message').innerHTML = "For høyt! Prøv igjen. Du har " + (7 - guesses) + " forsøk igjen.";
+        document.getElementById('message').innerHTML = "For høyt! Prøv igjen. Du har " + (5 - guesses) + " forsøk igjen.";
     }
 
     // Sjekker om maksimalt antall gjett er nådd
-    if (guesses >= 7) {
+    if (guesses >= 5) {
         // Viser ein melding som indikerer at brukaren har tapt og viser det rette tallet
         document.getElementById('message').innerHTML = "Du tapte! Nummeret var " + randomNumber;
     }
