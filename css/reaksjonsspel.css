@@ -65,3 +65,12 @@ p {
 }
 
 
+#Tilbake:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+button:hover{
+    background-color:greenyellow;
+    color: black;
+}

@@ -1,80 +1,74 @@
+<!-- Begynnelse -->
 <!DOCTYPE html>
 <html lang="en">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Nosifer&family=Share+Tech+Mono&display=swap"
-    rel="stylesheet">
+  <!-- Importerer Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Nosifer&family=Share+Tech+Mono&display=swap"
+  rel="stylesheet"/>
 
-<style>
+  <style>
+    /* Setter bakgrunnsbilde og stil for body-elementet */
     body {
-        background-image: url("images/Hacker\ bakgrunn");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
+      background-image: url("images/Hacker\ bakgrunn");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     }
 
+    /* Styling for h1 */
     h1 {
-        text-align: center;
+      text-align: center;
     }
 
+    /* Styling for p */
     p {
-        text-align: center;
+      text-align: center;
     }
-</style>
+  </style>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>Spelmagasin</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="center-main">
-        <div class="topnav">
-            <a class="active" href="#Heim">Heim</a>
-            <a href="om.html">Om</a>
+      <!-- Navigasjons bar -->
+      <div class="topnav">
+        <a class="active" href="#Heim">Heim</a>
+        <a href="om.html">Om</a>
+      </div>
+
+      <!-- Overskrift -->
+      <h1>SPELMAGASIN</h1>
+
+      <!-- Spel container -->
+      <div class="spel-container">
+        <div class="spel-box">
+          <!-- Knapp for "Reaksjonsspel" spel -->
+          <div class="button">
+            <a href="reaksjonsspel.html">
+              <button>Reaksjonsspel</button>
+            </a>
+          </div>
+          <!-- Knapp for "Gjettespel" spel -->
+          <div class="button">
+            <a href="gjettespel.html">
+              <button>Gjettespel</button>
+            </a>
+          </div>
+          <!-- Knapp for "Stein,Saks,Papir" spel -->
+          <div class="button">
+            <a href="steinspel.html">
+              <button>Stein,Saks,Papir</button>
+            </a>
+          </div>
         </div>
-
-
-
-
-        <h1> SPELMAGASIN</h1>
-
-        <div class="spel-container">
-            <div class="spel-box">
-                <div class="button">
-                    <a href="reaksjonsspel.html">
-                        <button>
-                            Reaksjonsspel
-                        </button>
-                    </a>
-                </div>
-                <div class="button">
-                    <a href="gjettespel.html">
-                        <button>
-                            Gjettespel
-                        </button>
-                    </a>
-                </div>
-                <div class="button">
-                    <a href="steinspel.html">
-                        <button>
-                            Stein,Saks,Papir
-                        </button>
-                    </a>
-                </div>
-
-
-
-            </div>
-
-
-        </div>
-
-
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
+<!-- Slutt-->

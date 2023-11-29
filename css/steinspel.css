@@ -12,8 +12,13 @@ button {
     
 }
 
-button a:hover {
-    background-color: greenyellow;
+#Tilbake:hover{
+    background-color:greenyellow;
+    color: black;
+}
+
+button:hover{
+    background-color:greenyellow;
     color: black;
 }
 

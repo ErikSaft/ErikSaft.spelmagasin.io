@@ -1,49 +1,49 @@
+<!-- Begynnelse -->
 <!DOCTYPE html>
 <html lang="en">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Nosifer&family=Share+Tech+Mono&display=swap"
-    rel="stylesheet">
+  <!-- Importerer Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Nosifer&family=Share+Tech+Mono&display=swap"
+  rel="stylesheet"/>
 
-<style>
+  <style>
+    /* Setter bakgrunnsbilde og stil for body-elementet */
     body {
-        background-image: url("images/Hacker\ bakgrunn");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
+      background-image: url("images/Hacker\ bakgrunn");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     }
-</style>
+  </style>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reaksjonsspel.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reaksjonsspel.css" />
     <title>Reaksjonsspel</title>
-</head>
+  </head>
 
-<body>
-    
+  <body>
+    <!-- Tilbake knapp -->
     <div class="button">
-        <a href="index.html">
-            <button>
-                Tilbake
-            </button>
-        </a>
+      <a href="index.html">
+        <button>Tilbake</button>
+      </a>
     </div>
     <div id="gameDiv">
-        <h1>Reaksjonstid Spel</h1>
-        <p id="message">Trykk når boksne blir grønn</p>
-        <div id="buttonContainer">
-            <button id="readyButton">Klar</button>
-            <button id="resetButton">Omstart</button>
-        </div>
-        <div id="clickBox"></div>
-        <p id="reactionTime"></p>
+      <h1>Reaksjonstid Spel</h1>
+      <p id="message">Trykk når boksne blir grønn</p>
+      <div id="buttonContainer">
+        <button id="readyButton">Klar</button>
+        <button id="resetButton">Omstart</button>
+      </div>
+      <div id="clickBox"></div>
+      <p id="reactionTime"></p>
     </div>
-    
-    
-    <script src="js/reaksjonsspel.js"></script>
-</body>
 
+    <!-- Importerer JavaScript-filen -->
+    <script src="js/reaksjonsspel.js"></script>
+  </body>
 </html>
+<!-- Slutt -->
