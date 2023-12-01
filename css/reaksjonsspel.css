@@ -26,8 +26,8 @@ button {
     padding: 100px;
     background-color:black;
     text-align: center;    
-    width: 800px; /* Set the width */
-    height: 800px; /* Set the height */
+    width: 550px; /* Set the width */
+    height: 550px; /* Set the height */
     position: absolute;
     top: 0;
     left: 0;
@@ -54,7 +54,7 @@ p {
     background-color: red;
     margin-top: 20px;
     border-radius: 15px;
-    transition: background-color 0.5s ease;
+    
 }
 
 

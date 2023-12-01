@@ -21,7 +21,7 @@ function checkGuess() {
         document.getElementById('message').innerHTML = "For lavt! Prøv igjen. Du har " + (5 - guesses) + " forsøk igjen.";
     } else if (userGuess > randomNumber) {
         // Viser ein melding om det er for høyt om du gjetter for høyt og antall forsøk som er igjen
-        document.getElementById('message').innerHTML = "For høyt! Prøv igjen. Du har " + (5 - guesses) + " forsøk igjen.";
+        document.getElementById('message').innerHTML = "For høgt! Prøv igjen. Du har " + (5 - guesses) + " forsøk igjen.";
     }
 
     // Sjekker om maksimalt antall gjett er nådd
