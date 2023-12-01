@@ -26,14 +26,14 @@ button {
     padding: 100px;
     background-color:black;
     text-align: center;    
-    width: 550px; /* Set the width */
-    height: 550px; /* Set the height */
+    width: 550px;
+    height: 550px; 
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    margin: auto; /* Center the box */
+    margin: auto; 
     display: flex;
     flex-direction: column;
     justify-content: center;

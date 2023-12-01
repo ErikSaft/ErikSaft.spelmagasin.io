@@ -20,7 +20,7 @@ function checkGuess() {
         // Viser ein melding om at det er for lavt om du gjetter for lavt og antall forsøk som er igjen
         document.getElementById('message').innerHTML = "For lavt! Prøv igjen. Du har " + (5 - guesses) + " forsøk igjen.";
     } else if (userGuess > randomNumber) {
-        // Viser ein melding om det er for høyt om du gjetter for høyt og antall forsøk som er igjen
+        // Viser ein melding om det er for høgt om du gjetter for høyt og antall forsøk som er igjen
         document.getElementById('message').innerHTML = "For høgt! Prøv igjen. Du har " + (5 - guesses) + " forsøk igjen.";
     }
 

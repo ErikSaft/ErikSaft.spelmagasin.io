@@ -35,9 +35,9 @@ button:hover{
     padding: 100px;
     background-color:black;
     text-align: center;    
-    width: 600px; /* Set the width */
-    height: 300px; /* Set the height */
-    margin: auto; /* Center the box */
+    width: 600px;
+    height: 300px;
+    margin: auto; 
     position: absolute;
     top: 0;
     left: 0;
