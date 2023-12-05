@@ -10,7 +10,6 @@ window.onload = function() {
 
    
     readyButton.addEventListener('click', function() {
-        this.disabled = true; 
         isClickable = true; // Setter klikk til å være mulig
         setTimeout(makeGreen, Math.random() * 5000); // Setter ein tilfeldig forsinkelse før boksen blir grønn
     });
@@ -19,7 +18,6 @@ window.onload = function() {
     resetButton.addEventListener('click', function() {
         clickBox.style.backgroundColor = 'red'; // Setter bakgrunnsfargen til rød
         document.getElementById('Reaksjonstid').innerHTML = ""; 
-        readyButton.disabled = false; 
     });
 
     
