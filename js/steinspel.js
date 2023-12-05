@@ -28,7 +28,7 @@ function datamaskinTurn(){
             break;
     }
 }
-//Skjekker kven som vant
+//Sjekker kven som vant
 function checkWinner(){
     if(spelar == datamaskin){
         return "Uavgjort!"; // Står uavgjort om begge velger det samme

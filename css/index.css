@@ -16,7 +16,6 @@ p {
 .topnav {
     
     background-color: black;
-    overflow: hidden;
     margin-bottom: 50px;
 }
 
@@ -37,7 +36,7 @@ p {
     color: black;
 }
 
-/* Skifte farge på Fanen du er innpå kanppen i menyen*/
+/* Skifte farge på kanppen på den fanen du er innpå i menyen*/
 .topnav a.active {
     background-color: green;
     color: white;
