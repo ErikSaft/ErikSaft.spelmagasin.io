@@ -14,11 +14,12 @@ window.onload = function() {
         setTimeout(makeGreen, Math.random() * 5000); // Setter ein tilfeldig forsinkelse før boksen blir grønn
     });
 
-   
+    // Legger til en hendelseslytter for klikk på omstart-knappen
     resetButton.addEventListener('click', function() {
         clickBox.style.backgroundColor = 'red'; // Setter bakgrunnsfargen til rød
-        document.getElementById('Reaksjonstid').innerHTML = ""; 
+        document.getElementById('reactionTime').innerHTML = ""; // Fjerner reaksjonstiden
     });
+   
 
     
     clickBox.addEventListener('click', function() {
@@ -37,11 +38,7 @@ window.onload = function() {
         startTime = new Date(); // Setter starttidspunktet
     }
 
-    // Legger til en hendelseslytter for klikk på tilbakestill-knappen
-    resetButton.addEventListener('click', function() {
-        clickBox.style.backgroundColor = 'red'; // Setter bakgrunnsfargen til rød
-        document.getElementById('reactionTime').innerHTML = ""; // Tømmer reaksjonstid-elementet
-    });
+   
 
 
 }

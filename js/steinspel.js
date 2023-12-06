@@ -7,7 +7,7 @@ let spelar; // Variabel for å lagre spillerens valg
 let datamaskin; // Variabel for å lagre datamaskinens valg
 let resultat; // Variabel for å lagre resultatet
 
-choiceBtns.forEach(button => button.addEventListener("click", () => {
+choiceBtns.forEach(button => button.addEventListener("click", () => { //Legger til ein hendelseslytter for klikk på knappane
     spelar = button.textContent; // Lagrer spillerens valg når ein knapp blir klikka
     datamaskinTurn(); // Kaller funksjonen for datamaskinens trekk
     spelarText.textContent = `Spelar: ${spelar}`; // Oppdaterer tekstinnholdet for spillerens valg
