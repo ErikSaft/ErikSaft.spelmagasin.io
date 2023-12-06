@@ -24,10 +24,10 @@ function checkGuess() {
         document.getElementById('message').innerHTML = "For høgt! Prøv igjen. Du har " + (5 - guesses) + " forsøk igjen.";
     }
 
-    // Sjekker om maksimalt antall gjett er nådd
-    if (guesses >= 5) {
-        // Viser ein melding som indikerer at brukaren har tapt og viser det rette tallet
-        document.getElementById('message').innerHTML = "Du tapte! Nummeret var " + randomNumber;
+    // Sjekker om maksimalt antall gjett er nådd eller brukeren har svart riktig
+    if (guesses >= 5 || userGuess == randomNumber) {
+        // Viser ein melding som indikerer at brukaren har tapt eller vunnet og viser det rette tallet
+        document.getElementById('message').innerHTML = "Du " + (userGuess == randomNumber ? "vant" : "tapte") + "! Nummeret var " + randomNumber;
     }
 }
 
