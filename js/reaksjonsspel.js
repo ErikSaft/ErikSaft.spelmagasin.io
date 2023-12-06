@@ -27,7 +27,6 @@ window.onload = function() {
             let reactionTime = (endTime - startTime) / 1000; // Beregner reaksjonstiden
             document.getElementById('reactionTime').innerHTML = "Din reaksjonstid er: " + reactionTime + " sekunder"; // Oppdaterer reaksjonstid-elementet
             this.style.backgroundColor = 'red'; // Setter bakgrunnsfargen til rød
-            readyButton.disabled = false; // Aktiverer klar-knappen
             isClickable = false; // Setter klikk til å være umulig
         }
     });
@@ -42,7 +41,6 @@ window.onload = function() {
     resetButton.addEventListener('click', function() {
         clickBox.style.backgroundColor = 'red'; // Setter bakgrunnsfargen til rød
         document.getElementById('reactionTime').innerHTML = ""; // Tømmer reaksjonstid-elementet
-        readyButton.disabled = false; // Aktiverer klar-knappen
     });
 
 
